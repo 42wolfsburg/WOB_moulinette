@@ -1,0 +1,9 @@
+Assignment name       : ft_megaphone
+Excepted files        : ft_megaphone.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that print the string passed as argument in upper case.
+All non-alphabetic characters should be printed as is.
+
+It will be prototyped as follows :
+void    ft_megaphone(char *str);

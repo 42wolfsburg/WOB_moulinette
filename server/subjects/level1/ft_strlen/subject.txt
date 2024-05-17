@@ -1,0 +1,8 @@
+Assignment name       : ft_strlen
+Excepted files        : ft_strlen.c
+Allowed functions     : none
+--------------------------------------------------------------------------------
+
+prototype :  int	ft_strlen(char *str)
+
+Write a function named ft_strlen that return the size of the string 'str'.
