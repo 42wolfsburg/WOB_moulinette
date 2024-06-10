@@ -1,0 +1,24 @@
+Odd
+Odd
+Even
+Even
+Even
+Odd
+Even
+Odd
+Odd
+Even
+
+faire un main qui envoie les 10 arguments a la suite, a lire dans une boucle et imprime les resultats dans un fichier res.txt 
+puis faire une diff avec mon fichier
+
+101
+1111111111101
+10
+000111100
+0
+1111
+11111111111110000
+1100000001111
+000111
+101010101010

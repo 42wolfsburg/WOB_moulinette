@@ -1,0 +1,13 @@
+Assignment name       : ft_quizzbug
+Excepted files        : ft_quizzbug.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that prints for numbers between 1 to 100 (1 and 100 including) :
+- "bug\n" if the number is a multiple of 3
+- "quizz\n" if the number is a multiple of 7
+- "quizzbug\n" if the number is a multiple of 21
+- nothing in other case (no carriage return)
+
+
+It will be prototyped as follows :
+void    ft_quizzbug(void);

@@ -1,0 +1,16 @@
+Do a function that will say if the binary number enter in argument is even or odd
+Examples :
+./a.out "10"
+Even$
+./a.out "111"
+Odd$
+
+The function will be prototyped as follows:
+void    ft_binary(int a);
+
+Rendu :
+File to turn in : ft_binary.c
+Norminette mandatory
+Program in C only
+No tricks or traps : arguments will always be valid
+

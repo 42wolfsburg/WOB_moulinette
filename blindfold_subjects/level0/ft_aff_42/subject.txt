@@ -1,0 +1,9 @@
+Assignment name       : ft_aff_42
+Accepted file         : ft_aff_42.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that displays on the stdout '42'.
+There will be an empty line at the end.
+
+It will be prototyped as follows :
+void    ft_aff_42(void);

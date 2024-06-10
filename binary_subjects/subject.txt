@@ -1,0 +1,30 @@
+This Dash will be on binary numbers. It will last 5 days, from the 3rd to the the 7th of June 2024, with an exercise by day.
+Quizz, reverse engeenering, programmation in C, everyone is welcome, no matter your level.
+You have to register before the start of the event to access the contest. Each exercise will last between 1 minutes to some hours, depending on the task.
+
+Read the whole instructions to send the answer properly !
+Speed bonus will be on board, but fast can be dangerous, verify your breaks! A good answer not well-formated will end wrong, that would be so sad.
+
+Wallets and coalition points for rewards!
+
+At the end of the week, there will be an individual and a coalition ranking.
+
+Individual points for each exercise :
+1, 1000
+2, 800
+3, 700
+4, 600
+5, 500
+6, 400
+7, 350
+8, 300
+9, 250
+10, 200
+11-15, 150
+16+, 100
+
++ eventual bonus 
+
+Coalition points at the end :
+Sum of all players points for each coalition
+5000 (1st), 2500 (2nd), 1000 (3rd)

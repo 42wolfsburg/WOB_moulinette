@@ -1,0 +1,9 @@
+Assignment name       : ft_atoi
+Excepted files        : ft_atoi.c
+Allowed functions     : none
+--------------------------------------------------------------------------------
+
+prototype :  int ft_atoi(char *str)
+
+Write a function named ft_atoi that work as the REAL atoi
+( man atoi could help )

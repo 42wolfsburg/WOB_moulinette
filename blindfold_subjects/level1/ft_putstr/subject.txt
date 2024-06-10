@@ -1,0 +1,9 @@
+Assignment name       : ft_putstr
+Excepted files        : ft_putstr.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+
+prototype :  int	ft_putstr(char *str)
+
+Write a function named ft_putstr that displays a string of characters on the standard output
+There will be an empty line at the end.

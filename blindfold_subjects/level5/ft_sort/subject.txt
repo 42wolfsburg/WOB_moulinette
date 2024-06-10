@@ -1,0 +1,5 @@
+Assignment name       : ft_sort
+Excepted files        : ft_sort.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+

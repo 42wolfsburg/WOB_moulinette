@@ -1,0 +1,9 @@
+Assignment name       : rev_print
+Excepted files        : rev_print.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that reverse the string passed as parameter and print it on the standard output.
+The modified string should be returned.
+
+It will be prototyped as follows :
+char    *rev_print(char *str);

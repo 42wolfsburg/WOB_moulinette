@@ -1,0 +1,20 @@
+Assignment name       : ft_repeat
+Excepted files        : ft_repeat.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+
+Write a function called ft_repeat that takes a string with numbers and displays it
+repeating each number as many times as its value, followed by a newline.
+No tricks, all input will be valid.
+
+'1' becomes '1', '2' becomes '22', '4' becomes '4444', etc...
+
+Function should be prototyped as :
+void    ft_repeat(char *str);
+
+Examples:
+
+$>./ft_repeat "123"
+122333
+$>./ft_repeat "470" | cat -e
+44447777777$

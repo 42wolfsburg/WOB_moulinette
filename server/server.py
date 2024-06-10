@@ -13,17 +13,6 @@ def main():
 
 	subject_module.load_subjects()
 
-	# path = "/Users/pingu007/Documents/projets42/moulinette/server/"
-	# path2 = "/Users/pingu007/Documents/projets42/moulinette/server/config.json"
-	# dirs = os.listdir(path)
-	# # y = json.loads(path)
-	# for file in dirs:
-	# 	print(file)
-	# 	if file == 'config.json':
-	# 		print(file)
-
-
-
 	print("Loading server config...")
 	config = json.load(open("server/config.json", "r"))
 	port = config["port"]

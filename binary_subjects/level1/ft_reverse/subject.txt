@@ -1,0 +1,27 @@
+Assignment name       : ft_reverse
+Excepted files        : ft_reverse.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+This is a reverse engineering test!
+You will have a string for input and an int for output.
+Your mission is to find the purpose and to code a program that will solve the problem
+
+Bonus:
++50 for the fastest
++50 for the shortest code (you can´t have both bonus)
+
+The function will be prototyped as follows:
+long int    ft_reverse(char *s);
+
+Rendu:
+Norminette mandatory
+Program in C only
+No tricks or traps : input will always be valid
+
+Examples:
+Input           ***         Output
+
+"1111"          ***         -15
+"1010101010"    ***         -682
+"0"             ***         0
+"10"            ***         -2

@@ -1,0 +1,27 @@
+Assignment name       : ft_caesar
+Excepted files        : ft_caesar.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and displays it, replacing each of its
+letters by the 5th one in alphabetical order.
+No tricks, input will always be valid.
+
+'z' becomes 'e' and 'A' becomes 'F'. Case remains unaffected.
+
+The output will be followed by a \n.
+
+Function will be prototyped as :
+void	ft_caesar(char *str);
+
+Example:
+
+$>./ft_caesar "abc"
+fgh$
+$>./ft_caesar "Poneys are wild." | cat -e
+Utsjdx fwj bnqi.$
+$>./ft_caesar "AkjhZ zLKIJz , 23y " | cat -e
+FpomE eQPNOe , 23d $
+$>./ft_caesar "" | cat -e
+$
+$>

@@ -1,0 +1,8 @@
+Assignment name       : ft_aff_f
+Accepted file         : ft_aff_f.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that displays on the stdout 'f'.
+
+It will be prototyped as follows :
+void    ft_aff_f(char f);

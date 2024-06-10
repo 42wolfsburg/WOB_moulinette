@@ -1,0 +1,21 @@
+Assignment name       : ft_binary
+Excepted files        : ft_binary.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function named ft_binary that displays :
+- 'Even\n" if the binary number is even
+- "Odd\n" if the binary number is odd
+
+Examples :
+./a.out "010"
+Even$
+./a.out "111"
+Odd$
+
+The function will be prototyped as follows:
+void    ft_binary(int a);
+
+Rendu :
+Norminette mandatory
+Program in C only
+No tricks or traps : arguments will always be valid

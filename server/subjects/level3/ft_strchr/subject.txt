@@ -1,0 +1,10 @@
+Assignment name       : ft_strchr
+Excepted files        : ft_strchr.c
+Allowed functions     : none
+--------------------------------------------------------------------------------
+Write a function that finds the character in the string.
+If found, the function should return a pointer to the character.
+If not found, the function should return NULL.
+
+It will be prototyped as follows :
+char    *ft_strchr(char c, char *str);

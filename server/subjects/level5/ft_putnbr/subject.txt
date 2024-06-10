@@ -1,0 +1,10 @@
+Assignment name       : ft_putnbr
+Excepted files        : ft_putnbr.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+
+prototype :  void	ft_putnbr(int nbr)
+
+Write a function named ft_putnbr that print the number 'nbr' in the standard output
+followed by a new line.
+Input will always be valid (no int min or max tricks and so on)

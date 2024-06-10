@@ -1,0 +1,29 @@
+This is a programming challenge!
+You will receive 3 variables for input :
+- 1 : string = the number to convert,
+- 2 : int = the actual numeric system,
+- 3 : int = the numeric sytem to convert to
+Your mission is to do a function that will convert the 1st parameter from the actual numeric system to the new numeric system
+Numeric systems : binary (2), octal (8), decimal (10)
+No standard C function allowed (means you have to code the converter in different bases by yourself)
+letters will be in lowercase for hexadecimal cases
+
+2 hours challenge
+
+Bonus:
++50 for the fastest
++50 for the shortest code (you can´t have both bonus)
+
+The function will be prototyped as follows:
+long int    ft_binary(int a, int b, int c);
+
+Rendu:
+File to turn in : ft_binary.c
+Norminette mandatory
+Program in C only
+No tricks or traps : input will always be valid
+
+Example
+Input                                   Output
+1111            2           10          15
+34              10          8           42

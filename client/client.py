@@ -80,10 +80,12 @@ def treat_message(message, client_socket):
 
 		if graded:
 			print(style.GREEN + ">>>>>>>>>> SUCCESS <<<<<<<<<<" + style.RESET)
+			# print("trace_content", trace_content)
 			if trace_content is None:
 				print("No trace available for this exercice")
 			else:
-				trace_name = os.path.expanduser("~/traces/" + str(try_count) + "_" + current_name + ".txt")
+				trace_name = os.path.expanduser("traces/" + str(try_count) + "_" + current_name + ".txt")
+				print("trace name=", trace_name)
 				trace_file = open(trace_name, "w")
 				trace_file.write(trace_content)
 				trace_file.close()
@@ -96,7 +98,7 @@ def treat_message(message, client_socket):
 			if trace_content is None:
 				print("No trace available for this exercice")
 			else:
-				trace_name = os.path.expanduser("~/traces/" + str(try_count) + "_" + current_name + ".txt")
+				trace_name = os.path.expanduser("traces/" + str(try_count) + "_" + current_name + ".txt")
 				trace_file = open(trace_name, "w")
 				trace_file.write(trace_content)
 				trace_file.close()
@@ -165,9 +167,9 @@ def treat_stdin(client_socket):
 				return
 			if cmd in yes_cmds:
 				files = {}
-				for file in os.listdir(os.path.expanduser("../rendu")):
+				for file in os.listdir(os.path.expanduser("rendu")):  #../rendu
 					if file.endswith(".c"):
-						files[file] = open(os.path.expanduser("../rendu/" + file), "r").read()
+						files[file] = open(os.path.expanduser("rendu/" + file), "r").read()
 				send_data(client_socket, "grade", {"files": files})
 				print("You work has been sent to the server, waiting for the grade...")
 				threading.Thread(target=wait_for_grade).start()
@@ -183,16 +185,15 @@ def main():
 	global running
 	global grading
 
-	if not os.path.isdir(os.path.expanduser("../subject")):
-		os.mkdir(os.path.expanduser("../subject"))
-	if not os.path.isdir(os.path.expanduser("../rendu")):
-		os.mkdir(os.path.expanduser("../rendu"))
-	if not os.path.isdir(os.path.expanduser("../traces")):
-		os.mkdir(os.path.expanduser("../traces"))
+	if not os.path.isdir(os.path.expanduser("subject")):
+		os.mkdir(os.path.expanduser("subject"))
+	if not os.path.isdir(os.path.expanduser("rendu")):
+		os.mkdir(os.path.expanduser("rendu"))
+	if not os.path.isdir(os.path.expanduser("traces")):
+		os.mkdir(os.path.expanduser("traces"))
 
-	# print(os.listdir())
 	config = json.load(open("client/config.json", "r"))
-	port = config["port"]
+	port = config['port']
 	host = socket.gethostname() if config["host"] == "localhost" else config["host"]
 
 	client_socket = socket.socket()

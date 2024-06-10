@@ -1,0 +1,8 @@
+Assignment name       : ft_add
+Excepted files        : ft_add.c
+Allowed functions     : none
+--------------------------------------------------------------------------------
+Write a function named ft_add that returns the result of the addition of the integers pointed to by *a and *b.
+
+It will be prototyped as:
+int    ft_add(int *a, int*b)

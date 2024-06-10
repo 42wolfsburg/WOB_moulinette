@@ -1,0 +1,34 @@
+Quizz
+10 points by good answer
++50 for the 1st 100% 
+coalition points : 
+- final ranking : sum of points of the players of the coalition
+- 300 (1st), 200 (2nd), 100 (3rd)
+
+Rendu:
+- ex00.txt file
+- one answer by line
+- empty line if no answer
+- answer in order
+- number of the question,answer (no space after comma)
+- no empty line at the end
+
+example:
+1,False
+2,42
+3,
+4,True
+
+=> 1st question = False, 2nd question = 42, 3rd question = I didn´t find the answer, 4th question : True
+
+Quizz:
+0 What is the biggest decimal number we can do with 5 binary numbers?
+1 What is the binary number for 42?
+2 10101 = 23 : True or False?
+3 Write the only even number : 11001, 100, 0011101, 1
+4 What is the binary value of the hexadecimal number f7?
+5 a bit is a group of binary digits (usually eight) operated on as a unit : True or False?
+6 how many numbers do you need in binary?
+7 What is the binary result of : 101 + 111 (both binary numbers)
+8 what is the hexadecimal value of the binary number 1010 ? 
+9 what is the binary value of the octal number : 126

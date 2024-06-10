@@ -1,0 +1,43 @@
+Convert the number in the numeral system asked for :
+example:
+input : 101 (2) (10)
+output : 5
+> 101 in binary (2) system to convert in decimal (10) system = 5
+
+15 minutes challenge
+
+Bonus:
++50 for the 100% first player 
+
+Rendu:
+- ex03.txt file
+- one answer by line
+- empty line if no answer
+- answer in order
+- number of the question,answer (no space after comma)
+- letters must be in lowercase
+- no empty line at the end
+
+example:
+1,10
+2,42a
+3,
+4,421
+
+=> 1st question = 2 (10) (2), 
+2nd question = 10000101010 (2) (16), 
+3rd question = I didn´t find the answer, 
+4th question : 111 (16) (8)
+
+
+Input:
+0 421f (16) (10)
+1 1000011 (2) (8)
+2 1000 (10) (2)
+3 85 (16) (8)
+4 651 (8) (2)
+5 00011110 (2) (10)
+6 36 (8) (16)
+7 2024 (16) (8)
+8 101 (10) (2)
+9 654 (10) (16)

@@ -1,0 +1,10 @@
+Assignment name       : ft_capitalizer
+Excepted files        : ft_capitalizer.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that prints the string passed as argument in upper case.
+All non-alphabetic characters should be printed as it is.
+There will be an empty line at the end.
+
+It will be prototyped as follows :
+void    ft_capitalizer(char *str);

@@ -11,8 +11,8 @@ def get_subjects():
 class Subject:
 	def __init__(self, folder_path):
 		self.name = folder_path.split("/")[-1]
-		self.complete_file = "../rendu/" + self.name + ".c"
-		self.subject_file = "../subject/" + self.name + ".txt"
+		self.complete_file = "rendu/" + self.name + ".c"
+		self.subject_file = "subject/" + self.name + ".txt"
 		self.subject = open(folder_path + "/subject.txt", "r").read()
 		self.main = open(folder_path + "/main.c", "r").read()
 		self.function = open(folder_path + "/function.c", "r").read()
@@ -43,14 +43,14 @@ def load_subjects():
 	global subjects
 	print("Loading subjects...")
 
-	path = "/Users/pingu007/Documents/projets42/moulinette/server" # path = "subjects"
-	path2 = "/Users/pingu007/Documents/projets42/moulinette/server/subjects/" # path2 = "level"
-	# dir_list = os.listdir(path2)
+	path = "/home/event/moulinette/server" # path = "subjects"
+	path2 = "/home/event/moulinette/server/subjects/" # path2 = "level"
+	dir_list = os.listdir(path)
 
 	# print the list 
-	# print(dir_list)
+	print("dir", dir_list)
 
-	# if os.path.isdir("subjects") == False:
+	# if os.path.isdir("server/subjects") == False:
 	if os.path.isdir(path) == False:
 		print("Error: no subjects folder found")
 		exit(1)
@@ -58,11 +58,13 @@ def load_subjects():
 	count = 0
 
 	for folder in os.listdir(path2): # path = "subjects"
+	# for folder in os.listdir("server/subjects"):
 		# print(folder)
 		if folder.startswith("level"):
 			level = int(folder.split("level")[1])
 			subjects[level] = []
 			for subject in os.listdir(path2 + folder): # path2 = "subjects/"
+				print("co", subject)
 				subjects[level].append(Subject(path2 + folder + "/" + subject)) # "subjects/"
 				print("Loaded subject " + subject + " for level " + str(level))
 				count += 1

@@ -79,3 +79,11 @@ Sur le client, les commandes disponibles sont les suivantes:
 
 -   `help` Affiche l'aide
 -   `grademe` Envoie les fichiers au serveur et lance la correction
+
+To launch client on other computers:
+- launch server on a computer
+- on the other computers, in client/config.json : modify the "host" with server computer IP
+
+Banque de sujets :
+Plusieurs sujets par level (en moyenne 3 sujets pour chacun des 7 niveaux)
+Choix random (le meme pour chaque client ou different?)

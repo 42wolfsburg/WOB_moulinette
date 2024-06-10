@@ -1,0 +1,8 @@
+Assignment name       : ft_spacenumber
+Excepted files        : ft_spacenumber.c
+Allowed functions     : none
+--------------------------------------------------------------------------------
+Write a function named ft_spacenumber that returns 1 if the string given as a parameter contains only
+digits and space, and 0 if it contains any other character.
+
+It should be prototyped :  int	ft_spacenumber(char *str)

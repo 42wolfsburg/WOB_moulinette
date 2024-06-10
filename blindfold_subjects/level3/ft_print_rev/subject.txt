@@ -1,0 +1,8 @@
+Assignment name       : ft_print_rev
+Excepted files        : ft_print_rev.c
+Allowed functions     : write
+--------------------------------------------------------------------------------
+Write a function that prints a string but in reverse order.
+
+It will be prototyped as follows :
+void    ft_print_rev(char *str);

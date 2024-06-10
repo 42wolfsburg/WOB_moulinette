@@ -1,0 +1,5 @@
+{
+	"send_trace": true,
+	"compiler": "cc",
+	"compiler_flags": "-Wall -Wextra -Werror"
+}

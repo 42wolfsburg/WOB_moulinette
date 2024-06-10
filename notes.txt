@@ -1,0 +1,30 @@
+pb traces : modifier le json et voir comment les rajouter pour le client > ok pour succes et failure
+
++ essayer de mettre traces, subjects et rendu a la root de l ordi plutot que dans client? > a faire
+
+pb de deco generale parfois quand un groupe part ou kkun qui se connecte > plutot random 
+
+tester les nouveaux codes :
+ok a priori : 
+level0 : aff_f, putchar, aff_42
+level1 : add, strlen
+level2 : megaphome, spacenumber
+level3 : quizzbug, strchr
+level4 : caesar, rev_print
+level5 : putnbr
+level6 : atoi
+
+ft_itoa : a revoir 
+> si on utilise itoa ca ne donne pas le meme resultat que le codessi on utilise le code, il faut le mettre a la norme 
+
+socket problem :
+Traceback (most recent call last):
+  File "/home/event/moulinette/server/server.py", line 81, in <module>
+    main()
+  File "/home/event/moulinette/server/server.py", line 68, in main
+    client = client_module.get_client_by_socket(fd)
+  File "/home/event/moulinette/server/client.py", line 41, in get_client_by_socket
+    if client.socket.fileno() == fd:
+AttributeError: 'NoneType' object has no attribute 'fileno'
+
+> ne se produit pas a chaque fois mais parfois en cas de deco ou de nouvelle co d un client 
